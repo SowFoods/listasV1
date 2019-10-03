@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Lista Spaghetto</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="js/funcoes.js"></script>
+</head>
+<body>
+
+   <div class="header">
+      <h1>Spaghetto <small>Lista de Compras</small></h1>
+   </div>
+
+   <div name="Div_Tab" class="table-responsive">
+      <table id="lista_tabela" class="table table-hover table-bordered table-striped">
+         <thead>
+            <tr class="row">
+               <th class="col-xs-3">Produto</th>
+               <th class="col-xs-3">U.D.M.</th>
+               <th class="col-xs-3">Quantidade</th>
+               <th class="col-xs-3">Comentario</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="row">
+               <td class="col-xs-3">Agriao</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Agriao Hidroponico</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Aipim</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Alface Americana</td>
+               <td class="col-xs-3">Bandeja</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Alho Roxo 10 Kg</td>
+               <td class="col-xs-3">Caixa</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Batata Asterix</td>
+               <td class="col-xs-3">Saco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Beringela</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Brocolis Comum</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Brocolis Comum Paulista</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Cebola</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Cenoura</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Espinafre</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Laranja</td>
+               <td class="col-xs-3">Caixa</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Limao</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Manjericao Grande</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Ovos Brancos Extra</td>
+               <td class="col-xs-3">Caixa</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Pepino Japones</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Pimenta Malagueta</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Pimentao Amarelo</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Pimentao Verde</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Pimentao Vermelho</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Radite Roxo</td>
+               <td class="col-xs-3">Bandeja</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Repolho</td>
+               <td class="col-xs-3">Unidade</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Repolho Roxo</td>
+               <td class="col-xs-3">Unidade</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Rucula Hidroponica</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Salsa</td>
+               <td class="col-xs-3">Maco</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Salvia</td>
+               <td class="col-xs-3">Bandeja</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Tomate Cereja</td>
+               <td class="col-xs-3">Bandeja</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Tomate Longa Vida</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+            <tr class="row">
+               <td class="col-xs-3">Vagem Italiana</td>
+               <td class="col-xs-3">Kilo</td>
+               <td class="col-xs-3"><input type="number" min="1"></td>
+               <td class="col-xs-3"><input type="text" maxlength="50"></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+
+   <!-- TODO Melhorar esse Sticky-->
+   <div class="footer">
+      <button type="submit" class="btn btn-default" onclick="adicionarItem()">Adicionar Item</button>
+      <button type="submit" class="btn btn-default" onclick="limparLista()">Limpar Lista</button>
+      <button type="submit" class="btn btn-default" onclick="enviarLista()">Enviar Lista</button>
+   </div>
+
+</body>
+</html>
